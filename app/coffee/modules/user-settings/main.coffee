@@ -185,6 +185,7 @@ TaigaAvatarModelDirective = ($parse) ->
         modelSetter = model.assign
 
         $el.bind 'change', ->
+            console.log($el[0].files[0].name);
             $scope.$apply ->
                 modelSetter($scope, $el[0].files[0])
 
