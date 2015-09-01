@@ -19,7 +19,7 @@
         min-height: 7rem;
     }
 
-    label:not(.icon-plus) {
+    label:not(.icon-plus):not(.is_deprecated) {
         border: 1px solid $gray-light;
         color: $grayer;
         cursor: pointer;

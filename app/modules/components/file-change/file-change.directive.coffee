@@ -5,6 +5,8 @@ FileChangeDirective = ($parse) ->
         el.on 'change', (event) ->
             scope.$apply () -> eventAttr(scope, {files: event.currentTarget.files})
 
+        scope.$on "$destroy", -> el.off()
+
     return {
         require: "ngModel",
         restrict: "A",

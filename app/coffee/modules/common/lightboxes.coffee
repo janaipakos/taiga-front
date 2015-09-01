@@ -274,14 +274,22 @@ CreateEditUserstoryDirective = ($repo, $model, $rs, $rootScope, lightboxService,
                 attachments: []
             }
 
-        $scope.addAttachment = (attachment) ->
-            $scope.createEditUs.attachments.push(attachment)
+        # $scope.addAttachment = (attachment) ->
+        #     $scope.createEditUs.attachments.push(attachment)
+
+        # eliminar on-add
+        $scope.$watch "attachments", (attachments) ->
+            $scope.att
+
+            if attachments
+                console.log attachments.toJS()
 
         $scope.$on "usform:new", (ctx, projectId, status, statusList) ->
             resetScope()
 
             $scope.isNew = true
             $scope.usStatusList = statusList
+            $scope.attachments = Immutable.List()
 
             $scope.us = $model.make_model("userstories", {
                 project: projectId
@@ -303,10 +311,13 @@ CreateEditUserstoryDirective = ($repo, $model, $rs, $rootScope, lightboxService,
 
             lightboxService.open($el)
 
-        $scope.$on "usform:edit", (ctx, us) ->
+        $scope.$on "usform:edit", (ctx, us, attachments) ->
             resetScope()
 
+            attachments = _.map attachments, (attachment) -> attachment._attrs
+
             $scope.us = us
+            $scope.attachments = Immutable.fromJS(attachments)
             $scope.isNew = false
 
             # Update texts for edition
