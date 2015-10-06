@@ -131,7 +131,8 @@
             "POINTS": "Punten",
             "BLOCKED_NOTE": "geblokkeerde notitie",
             "IS_BLOCKED": "is geblokkeerd",
-            "REF": "Ref"
+            "REF": "Ref",
+            "VOTES": "Votes"
         },
         "ROLES": {
             "ALL": "Alles"
@@ -149,10 +150,24 @@
             "OPEN": "Open"
         },
         "WATCHERS": {
-            "ADD": "Waarnemer toevoegen",
-            "TITLE": "waarnemers",
+            "ADD": "Add watchers",
+            "TITLE_ADD": "Add a project member to the watchers list",
             "DELETE": "Verwijder waarnemer",
             "TITLE_LIGHTBOX_DELETE_WARTCHER": "Verwijder waarnemer..."
+        },
+        "WATCH_BUTTON": {
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "UNWATCH": "Unwatch",
+            "BUTTON_TITLE": "Watch/Unwatch this item",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}"
+        },
+        "VOTE_BUTTON": {
+            "UPVOTE": "Upvote",
+            "UPVOTED": "Upvoted",
+            "DOWNVOTE": "Downvote",
+            "BUTTON_TITLE": "Upvote/Downvote this item",
+            "COUNTER_TITLE": "{total, plural, one{one vote} other{# votes}}"
         },
         "CUSTOM_ATTRIBUTES": {
             "CUSTOM_FIELDS": "Eigen velden",
@@ -641,8 +656,9 @@
             "REPORT": "Meld misbruik",
             "ACTIVITY_TAB": "Activiteiten tab",
             "PROJECTS_TAB": "Projecten tab",
+            "LIKES_TAB": "Likes Tab",
+            "WATCHED_TAB": "Watched Tab",
             "CONTACTS_TAB": "Contacten tab",
-            "FAVORITES_TAB": "Favorieten tab",
             "CONTACTS_EMPTY": "{{username}} heeft nog geen contacten",
             "CURRENT_USER_CONTACTS_EMPTY": "Je hebt nog geen contacten",
             "CURRENT_USER_CONTACTS_EMPTY_EXPLAIN": "De mensen waarmee je via Taiga werkt zullen automatisch je contacten worden",
@@ -652,6 +668,21 @@
             "TITLE": "Jouw profiel",
             "DESCRIPTION": "Mensen kunnen alles zien wat je doet en waar je aan werkt. Voeg een mooie biografie toe voor een meer uitgebreide versie van jouw informatie.",
             "ADD_INFO": "Bewerk je bio"
+        },
+        "PROFILE_FAVS": {
+            "FILTER_INPUT_PLACEHOLDER": "Type something...",
+            "FILTER_TYPE_ALL": "All",
+            "FILTER_TYPE_ALL_TITLE": "Show all",
+            "FILTER_TYPE_PROJECTS": "Projects",
+            "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
+            "FILTER_TYPE_USER_STORIES": "Stories",
+            "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
+            "FILTER_TYPE_TASKS": "Taks",
+            "FILTER_TYPE_TASK_TITLES": "Show only taks",
+            "FILTER_TYPE_ISSUES": "Issues",
+            "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
+            "NO_RESULTS_TEXT1": "It looks like nothing was found",
+            "NO_RESULTS_TEXT2": "Try again with another search criteria."
         }
     },
     "PROJECT": {
@@ -720,6 +751,27 @@
             "ERROR_MESSAGE": "Onze Oempa-Loempa's hebben wat problemen met het importeren van je dump: {{error_message}}",
             "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) is te zwaar voor onze Oempa-Loempa's, probeer het met een bestand kleiner dan ({{maxFileSize}})",
             "SYNC_SUCCESS": "Je project werd met succes geïmporteerd"
+        },
+        "LIKE_BUTTON": {
+            "LIKE": "Like",
+            "LIKED": "Liked",
+            "UNLIKE": "Unlike",
+            "BUTTON_TITLE": "Like or unlike this project",
+            "COUNTER_TITLE": "{total, plural, one{one fan} other{# fans}}"
+        },
+        "WATCH_BUTTON": {
+            "BUTTON_TITLE": "Watch this project and set notification policy",
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
+            "OPTIONS": {
+                "NOTIFY_ALL": "Receive all notifications",
+                "NOTIFY_ALL_TITLE": "Receive all notifications for this project",
+                "NOTIFY_INVOLVED": "Only involved",
+                "NOTIFY_INVOLVED_TITLE": "Recive notificacions only when you are involved",
+                "UNWATCH": "Unwatch",
+                "UNWATCH_TITLE": "Unwatch this project"
+            }
         }
     },
     "LIGHTBOX": {
@@ -792,7 +844,7 @@
         "SECTION_NAME": "User story details",
         "LINK_TASKBOARD": "Taakbord",
         "TITLE_LINK_TASKBOARD": "Ga naar het dashboard",
-        "TOTAL_POINTS": "totaal",
+        "TOTAL_POINTS": "total points",
         "ADD": "+ Nieuwe User Story toevoegen",
         "ADD_BULK": "Voeg enkele nieuwe User Stories in bulk toe",
         "PROMOTED": "Deze US werd gepromoveerd van Issue:",
@@ -1082,6 +1134,7 @@
                 "SEVERITY": "Ernst",
                 "PRIORITY": "Prioriteit",
                 "SUBJECT": "Onderwerp",
+                "VOTES": "Votes",
                 "STATUS": "Status",
                 "CREATED": "Aangemaakt",
                 "ASSIGNED_TO": "Toegewezen aan"

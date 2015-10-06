@@ -131,7 +131,8 @@
             "POINTS": "Punkty",
             "BLOCKED_NOTE": "zablokowana notka",
             "IS_BLOCKED": "zablokowana",
-            "REF": "Ref"
+            "REF": "Ref",
+            "VOTES": "Votes"
         },
         "ROLES": {
             "ALL": "Wszystko"
@@ -149,10 +150,24 @@
             "OPEN": "Otwórz"
         },
         "WATCHERS": {
-            "ADD": "Dodaj obserwatora",
-            "TITLE": "obserwatorzy",
+            "ADD": "Add watchers",
+            "TITLE_ADD": "Add a project member to the watchers list",
             "DELETE": "Usuń obserwatora",
             "TITLE_LIGHTBOX_DELETE_WARTCHER": "Usuwanie obserwatora..."
+        },
+        "WATCH_BUTTON": {
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "UNWATCH": "Unwatch",
+            "BUTTON_TITLE": "Watch/Unwatch this item",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}"
+        },
+        "VOTE_BUTTON": {
+            "UPVOTE": "Upvote",
+            "UPVOTED": "Upvoted",
+            "DOWNVOTE": "Downvote",
+            "BUTTON_TITLE": "Upvote/Downvote this item",
+            "COUNTER_TITLE": "{total, plural, one{one vote} other{# votes}}"
         },
         "CUSTOM_ATTRIBUTES": {
             "CUSTOM_FIELDS": "Własne Pola",
@@ -641,8 +656,9 @@
             "REPORT": "Zgłoś naruszenie",
             "ACTIVITY_TAB": "Zakładka Aktywność",
             "PROJECTS_TAB": "Zakładka Projekty",
+            "LIKES_TAB": "Likes Tab",
+            "WATCHED_TAB": "Watched Tab",
             "CONTACTS_TAB": "Zakładka Kontakty",
-            "FAVORITES_TAB": "Zakładka Ulubione",
             "CONTACTS_EMPTY": "{{username}} jeszcze nie ma kontaktów",
             "CURRENT_USER_CONTACTS_EMPTY": "Jeszcze nie masz kontaktów",
             "CURRENT_USER_CONTACTS_EMPTY_EXPLAIN": "Ludzie z którymi pracujesz w Taiga staną się Twoimi kontaktami automatycznie.",
@@ -652,6 +668,21 @@
             "TITLE": "Twój profil",
             "DESCRIPTION": "Użytkownicy mogą zobaczyć wszystko co robisz i nad czym pracujesz. Dodaj jakieś ładne info o sobie, żeby dać im się poznać.",
             "ADD_INFO": "Edytuj info o sobie"
+        },
+        "PROFILE_FAVS": {
+            "FILTER_INPUT_PLACEHOLDER": "Type something...",
+            "FILTER_TYPE_ALL": "All",
+            "FILTER_TYPE_ALL_TITLE": "Show all",
+            "FILTER_TYPE_PROJECTS": "Projects",
+            "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
+            "FILTER_TYPE_USER_STORIES": "Stories",
+            "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
+            "FILTER_TYPE_TASKS": "Taks",
+            "FILTER_TYPE_TASK_TITLES": "Show only taks",
+            "FILTER_TYPE_ISSUES": "Issues",
+            "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
+            "NO_RESULTS_TEXT1": "It looks like nothing was found",
+            "NO_RESULTS_TEXT2": "Try again with another search criteria."
         }
     },
     "PROJECT": {
@@ -720,6 +751,27 @@
             "ERROR_MESSAGE": "Przy imporcie wystąpił następujący problem: {{error_message}}",
             "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) plik jest za ciężki, maksymalna wartość to: ({{maxFileSize}})",
             "SYNC_SUCCESS": "Twój projekt zaimportował się prawidłowo!"
+        },
+        "LIKE_BUTTON": {
+            "LIKE": "Like",
+            "LIKED": "Liked",
+            "UNLIKE": "Unlike",
+            "BUTTON_TITLE": "Like or unlike this project",
+            "COUNTER_TITLE": "{total, plural, one{one fan} other{# fans}}"
+        },
+        "WATCH_BUTTON": {
+            "BUTTON_TITLE": "Watch this project and set notification policy",
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
+            "OPTIONS": {
+                "NOTIFY_ALL": "Receive all notifications",
+                "NOTIFY_ALL_TITLE": "Receive all notifications for this project",
+                "NOTIFY_INVOLVED": "Only involved",
+                "NOTIFY_INVOLVED_TITLE": "Recive notificacions only when you are involved",
+                "UNWATCH": "Unwatch",
+                "UNWATCH_TITLE": "Unwatch this project"
+            }
         }
     },
     "LIGHTBOX": {
@@ -792,7 +844,7 @@
         "SECTION_NAME": "Szczegóły historyjki użytkownika",
         "LINK_TASKBOARD": "Tablica zadań",
         "TITLE_LINK_TASKBOARD": "Idź do listy zadań",
-        "TOTAL_POINTS": "razem",
+        "TOTAL_POINTS": "total points",
         "ADD": "+ Dodaj nową historyjkę użytkownika",
         "ADD_BULK": "Masowo dodaj nowe historyjki użytkownika",
         "PROMOTED": "Ta historyjka awansowała ze zgłoszenia:",
@@ -1082,6 +1134,7 @@
                 "SEVERITY": "Ważność",
                 "PRIORITY": "Priorytet",
                 "SUBJECT": "Temat",
+                "VOTES": "Votes",
                 "STATUS": "Status",
                 "CREATED": "Utworzone",
                 "ASSIGNED_TO": "Przypisane do"

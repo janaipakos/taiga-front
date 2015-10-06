@@ -131,7 +131,8 @@
             "POINTS": "點數",
             "BLOCKED_NOTE": "已封鎖之筆記",
             "IS_BLOCKED": "封鎖",
-            "REF": "Ref"
+            "REF": "Ref",
+            "VOTES": "Votes"
         },
         "ROLES": {
             "ALL": "所有"
@@ -149,10 +150,24 @@
             "OPEN": "開啟"
         },
         "WATCHERS": {
-            "ADD": "新增監督者",
-            "TITLE": "監督者",
+            "ADD": "Add watchers",
+            "TITLE_ADD": "Add a project member to the watchers list",
             "DELETE": "已刪除監督者",
             "TITLE_LIGHTBOX_DELETE_WARTCHER": "刪除監督者"
+        },
+        "WATCH_BUTTON": {
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "UNWATCH": "Unwatch",
+            "BUTTON_TITLE": "Watch/Unwatch this item",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}"
+        },
+        "VOTE_BUTTON": {
+            "UPVOTE": "Upvote",
+            "UPVOTED": "Upvoted",
+            "DOWNVOTE": "Downvote",
+            "BUTTON_TITLE": "Upvote/Downvote this item",
+            "COUNTER_TITLE": "{total, plural, one{one vote} other{# votes}}"
         },
         "CUSTOM_ATTRIBUTES": {
             "CUSTOM_FIELDS": "客製化欄位",
@@ -641,8 +656,9 @@
             "REPORT": "回報濫用",
             "ACTIVITY_TAB": "活動分頁",
             "PROJECTS_TAB": "專案分頁",
+            "LIKES_TAB": "Likes Tab",
+            "WATCHED_TAB": "Watched Tab",
             "CONTACTS_TAB": "聯絡人分頁",
-            "FAVORITES_TAB": "快速分頁",
             "CONTACTS_EMPTY": "{{username}} 尚無聯絡人",
             "CURRENT_USER_CONTACTS_EMPTY": "您尚無任何聯絡人",
             "CURRENT_USER_CONTACTS_EMPTY_EXPLAIN": "你在Taiga一同工作的伙伴將自動成為你的聯絡人",
@@ -652,6 +668,21 @@
             "TITLE": "個人資訊",
             "DESCRIPTION": "人們可以看到你做的成果以及其進度。加入一段描述介紹以強化你的資料。",
             "ADD_INFO": "編輯個人介紹"
+        },
+        "PROFILE_FAVS": {
+            "FILTER_INPUT_PLACEHOLDER": "Type something...",
+            "FILTER_TYPE_ALL": "All",
+            "FILTER_TYPE_ALL_TITLE": "Show all",
+            "FILTER_TYPE_PROJECTS": "Projects",
+            "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
+            "FILTER_TYPE_USER_STORIES": "Stories",
+            "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
+            "FILTER_TYPE_TASKS": "Taks",
+            "FILTER_TYPE_TASK_TITLES": "Show only taks",
+            "FILTER_TYPE_ISSUES": "Issues",
+            "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
+            "NO_RESULTS_TEXT1": "It looks like nothing was found",
+            "NO_RESULTS_TEXT2": "Try again with another search criteria."
         }
     },
     "PROJECT": {
@@ -720,6 +751,27 @@
             "ERROR_MESSAGE": "我們的系統無法滙入你的資料",
             "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) 超過系統容量上限, 請重傳小一點的檔案 ({{maxFileSize}})",
             "SYNC_SUCCESS": "你的專案已成功滙入"
+        },
+        "LIKE_BUTTON": {
+            "LIKE": "Like",
+            "LIKED": "Liked",
+            "UNLIKE": "Unlike",
+            "BUTTON_TITLE": "Like or unlike this project",
+            "COUNTER_TITLE": "{total, plural, one{one fan} other{# fans}}"
+        },
+        "WATCH_BUTTON": {
+            "BUTTON_TITLE": "Watch this project and set notification policy",
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
+            "OPTIONS": {
+                "NOTIFY_ALL": "Receive all notifications",
+                "NOTIFY_ALL_TITLE": "Receive all notifications for this project",
+                "NOTIFY_INVOLVED": "Only involved",
+                "NOTIFY_INVOLVED_TITLE": "Recive notificacions only when you are involved",
+                "UNWATCH": "Unwatch",
+                "UNWATCH_TITLE": "Unwatch this project"
+            }
         }
     },
     "LIGHTBOX": {
@@ -792,7 +844,7 @@
         "SECTION_NAME": "使用者故事細節",
         "LINK_TASKBOARD": "任務板",
         "TITLE_LINK_TASKBOARD": "到任務板去",
-        "TOTAL_POINTS": "全部",
+        "TOTAL_POINTS": "total points",
         "ADD": "+新增使用者故事",
         "ADD_BULK": "批次加入新使用者故事",
         "PROMOTED": "此使用者故事已提昇成問題:",
@@ -1082,6 +1134,7 @@
                 "SEVERITY": "急迫性",
                 "PRIORITY": "優先性",
                 "SUBJECT": "主旨",
+                "VOTES": "Votes",
                 "STATUS": "狀態",
                 "CREATED": "已創建",
                 "ASSIGNED_TO": "指派給 "

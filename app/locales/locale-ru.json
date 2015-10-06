@@ -131,7 +131,8 @@
             "POINTS": "Очки",
             "BLOCKED_NOTE": "Пояснение блокировки",
             "IS_BLOCKED": "заблокирован",
-            "REF": "Ссылка"
+            "REF": "Ссылка",
+            "VOTES": "Votes"
         },
         "ROLES": {
             "ALL": "Все"
@@ -149,10 +150,24 @@
             "OPEN": "Открыть"
         },
         "WATCHERS": {
-            "ADD": "Добавить наблюдателя",
-            "TITLE": "наблюдатели",
+            "ADD": "Add watchers",
+            "TITLE_ADD": "Add a project member to the watchers list",
             "DELETE": "Удалить наблюдателя",
             "TITLE_LIGHTBOX_DELETE_WARTCHER": "Удалить наблюдателя..."
+        },
+        "WATCH_BUTTON": {
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "UNWATCH": "Unwatch",
+            "BUTTON_TITLE": "Watch/Unwatch this item",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}"
+        },
+        "VOTE_BUTTON": {
+            "UPVOTE": "Upvote",
+            "UPVOTED": "Upvoted",
+            "DOWNVOTE": "Downvote",
+            "BUTTON_TITLE": "Upvote/Downvote this item",
+            "COUNTER_TITLE": "{total, plural, one{one vote} other{# votes}}"
         },
         "CUSTOM_ATTRIBUTES": {
             "CUSTOM_FIELDS": "Пользовательские поля",
@@ -641,8 +656,9 @@
             "REPORT": "Пожаловаться",
             "ACTIVITY_TAB": "Вкладка Активность",
             "PROJECTS_TAB": "Вкладка Проекты",
+            "LIKES_TAB": "Likes Tab",
+            "WATCHED_TAB": "Watched Tab",
             "CONTACTS_TAB": "Вкладка Контакты",
-            "FAVORITES_TAB": "Вкладка с Избранным",
             "CONTACTS_EMPTY": "{{username}} ещё не имеет контактов",
             "CURRENT_USER_CONTACTS_EMPTY": "У вас пока нет контактов",
             "CURRENT_USER_CONTACTS_EMPTY_EXPLAIN": "Люди, с которыми вы работаете в Taiga, будут отмечены как ваши контакты автоматически",
@@ -652,6 +668,21 @@
             "TITLE": "Ваш профиль",
             "DESCRIPTION": "Люди могут видеть всё что Вы делаете и всё над чем Вы работаете. Вы также можете добавить краткую биографию.",
             "ADD_INFO": "Изменить Ваши данные"
+        },
+        "PROFILE_FAVS": {
+            "FILTER_INPUT_PLACEHOLDER": "Type something...",
+            "FILTER_TYPE_ALL": "All",
+            "FILTER_TYPE_ALL_TITLE": "Show all",
+            "FILTER_TYPE_PROJECTS": "Projects",
+            "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
+            "FILTER_TYPE_USER_STORIES": "Stories",
+            "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
+            "FILTER_TYPE_TASKS": "Taks",
+            "FILTER_TYPE_TASK_TITLES": "Show only taks",
+            "FILTER_TYPE_ISSUES": "Issues",
+            "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
+            "NO_RESULTS_TEXT1": "It looks like nothing was found",
+            "NO_RESULTS_TEXT2": "Try again with another search criteria."
         }
     },
     "PROJECT": {
@@ -720,6 +751,27 @@
             "ERROR_MESSAGE": "У Oompa Loompas возникли проблемы при импорте резервной копии: {{error_message}}",
             "ERROR_MAX_SIZE_EXCEEDED": "'{{fileName}}' ({{fileSize}}) это слишком много для наших Умпа-Лумп, попробуйте еще раз с размером меньшим, чем ({{maxFileSize}})",
             "SYNC_SUCCESS": "Импорт проекта выполнен успешно"
+        },
+        "LIKE_BUTTON": {
+            "LIKE": "Like",
+            "LIKED": "Liked",
+            "UNLIKE": "Unlike",
+            "BUTTON_TITLE": "Like or unlike this project",
+            "COUNTER_TITLE": "{total, plural, one{one fan} other{# fans}}"
+        },
+        "WATCH_BUTTON": {
+            "BUTTON_TITLE": "Watch this project and set notification policy",
+            "WATCH": "Watch",
+            "WATCHING": "Watching",
+            "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
+            "OPTIONS": {
+                "NOTIFY_ALL": "Receive all notifications",
+                "NOTIFY_ALL_TITLE": "Receive all notifications for this project",
+                "NOTIFY_INVOLVED": "Only involved",
+                "NOTIFY_INVOLVED_TITLE": "Recive notificacions only when you are involved",
+                "UNWATCH": "Unwatch",
+                "UNWATCH_TITLE": "Unwatch this project"
+            }
         }
     },
     "LIGHTBOX": {
@@ -792,7 +844,7 @@
         "SECTION_NAME": "Детали пользовательских историй",
         "LINK_TASKBOARD": "Панель задач",
         "TITLE_LINK_TASKBOARD": "Перейти к панели задач",
-        "TOTAL_POINTS": "всего",
+        "TOTAL_POINTS": "total points",
         "ADD": "+ Добавить Пользовательскую Историю",
         "ADD_BULK": "Добавить несколько Историй от Пользователей пакетно",
         "PROMOTED": "Эта ПИ была сформирована из задачи:",
@@ -1082,6 +1134,7 @@
                 "SEVERITY": "Важность",
                 "PRIORITY": "Приоритет",
                 "SUBJECT": "Тема",
+                "VOTES": "Votes",
                 "STATUS": "Статус",
                 "CREATED": "Создан",
                 "ASSIGNED_TO": "Назначено"
