@@ -132,7 +132,7 @@
             "BLOCKED_NOTE": "nota bloccata",
             "IS_BLOCKED": "è bloccato",
             "REF": "Riferimento",
-            "VOTES": "Votes"
+            "VOTES": "Voti"
         },
         "ROLES": {
             "ALL": "Tutti"
@@ -157,7 +157,7 @@
         },
         "WATCH_BUTTON": {
             "WATCH": "Watch",
-            "WATCHING": "Watching",
+            "WATCHING": "In osservazione",
             "UNWATCH": "Unwatch",
             "BUTTON_TITLE": "Watch/Unwatch this item",
             "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}"
@@ -671,15 +671,15 @@
         },
         "PROFILE_FAVS": {
             "FILTER_INPUT_PLACEHOLDER": "Type something...",
-            "FILTER_TYPE_ALL": "All",
+            "FILTER_TYPE_ALL": "Tutti",
             "FILTER_TYPE_ALL_TITLE": "Show all",
-            "FILTER_TYPE_PROJECTS": "Projects",
+            "FILTER_TYPE_PROJECTS": "Progetti",
             "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
             "FILTER_TYPE_USER_STORIES": "Stories",
             "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
-            "FILTER_TYPE_TASKS": "Taks",
+            "FILTER_TYPE_TASKS": "Compiti",
             "FILTER_TYPE_TASK_TITLES": "Show only taks",
-            "FILTER_TYPE_ISSUES": "Issues",
+            "FILTER_TYPE_ISSUES": "problemi",
             "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
             "NO_RESULTS_TEXT1": "It looks like nothing was found",
             "NO_RESULTS_TEXT2": "Try again with another search criteria."
@@ -762,7 +762,7 @@
         "WATCH_BUTTON": {
             "BUTTON_TITLE": "Watch this project and set notification policy",
             "WATCH": "Watch",
-            "WATCHING": "Watching",
+            "WATCHING": "In osservazione",
             "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
             "OPTIONS": {
                 "NOTIFY_ALL": "Receive all notifications",
@@ -1134,7 +1134,7 @@
                 "SEVERITY": "Gravità",
                 "PRIORITY": "Priorità",
                 "SUBJECT": "Oggetto",
-                "VOTES": "Votes",
+                "VOTES": "Voti",
                 "STATUS": "Stato",
                 "CREATED": "Creato",
                 "ASSIGNED_TO": "Assegna a"

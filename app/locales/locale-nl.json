@@ -132,7 +132,7 @@
             "BLOCKED_NOTE": "geblokkeerde notitie",
             "IS_BLOCKED": "is geblokkeerd",
             "REF": "Ref",
-            "VOTES": "Votes"
+            "VOTES": "Stemmen"
         },
         "ROLES": {
             "ALL": "Alles"
@@ -157,7 +157,7 @@
         },
         "WATCH_BUTTON": {
             "WATCH": "Watch",
-            "WATCHING": "Watching",
+            "WATCHING": "Volgers",
             "UNWATCH": "Unwatch",
             "BUTTON_TITLE": "Watch/Unwatch this item",
             "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}"
@@ -671,13 +671,13 @@
         },
         "PROFILE_FAVS": {
             "FILTER_INPUT_PLACEHOLDER": "Type something...",
-            "FILTER_TYPE_ALL": "All",
+            "FILTER_TYPE_ALL": "Alles",
             "FILTER_TYPE_ALL_TITLE": "Show all",
-            "FILTER_TYPE_PROJECTS": "Projects",
+            "FILTER_TYPE_PROJECTS": "Projecten",
             "FILTER_TYPE_PROJECT_TITLES": "Show only projects",
             "FILTER_TYPE_USER_STORIES": "Stories",
             "FILTER_TYPE_USER_STORIES_TITLES": "Show only user stories",
-            "FILTER_TYPE_TASKS": "Taks",
+            "FILTER_TYPE_TASKS": "Taken",
             "FILTER_TYPE_TASK_TITLES": "Show only taks",
             "FILTER_TYPE_ISSUES": "Issues",
             "FILTER_TYPE_ISSUES_TITLE": "Show only issues",
@@ -762,7 +762,7 @@
         "WATCH_BUTTON": {
             "BUTTON_TITLE": "Watch this project and set notification policy",
             "WATCH": "Watch",
-            "WATCHING": "Watching",
+            "WATCHING": "Volgers",
             "COUNTER_TITLE": "{total, plural, one{one watcher} other{# watchers}}",
             "OPTIONS": {
                 "NOTIFY_ALL": "Receive all notifications",
@@ -1134,7 +1134,7 @@
                 "SEVERITY": "Ernst",
                 "PRIORITY": "Prioriteit",
                 "SUBJECT": "Onderwerp",
-                "VOTES": "Votes",
+                "VOTES": "Stemmen",
                 "STATUS": "Status",
                 "CREATED": "Aangemaakt",
                 "ASSIGNED_TO": "Toegewezen aan"
